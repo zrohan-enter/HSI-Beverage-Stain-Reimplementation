@@ -1,0 +1,90 @@
+﻿# ==========================================================
+# Python environments and caches
+# ==========================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================================
+# Editors and operating system
+# ==========================================================
+.idea/
+.vscode/*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================================
+# Credentials and private configuration
+# ==========================================================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ==========================================================
+# Temporary and installation files
+# ==========================================================
+.tmp/
+temp/
+tmp/
+wheelhouse/
+*.tmp
+*.log
+
+# ==========================================================
+# Raw and generated datasets
+# ==========================================================
+data/raw/**/*.mat
+data/raw/**/*.csv
+data/raw/**/*.hdr
+data/raw/**/*.raw
+data/raw/**/*.dat
+data/raw/**/*.npy
+data/raw/**/*.npz
+
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+data/splits/*
+!data/splits/.gitkeep
+
+# Tiny demonstration samples may be tracked.
+!data/sample/**
+!data/raw/**/.gitkeep
+
+# ==========================================================
+# Large machine-learning outputs
+# ==========================================================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+
+checkpoints/
+runs/
+wandb/
+tensorboard/
+
+results/**/checkpoints/
+results/**/predictions.npy
+results/**/probabilities.npy
+results/**/logits.npy
+
+# Final lightweight results such as CSV, JSON and PNG
+# are intentionally allowed.

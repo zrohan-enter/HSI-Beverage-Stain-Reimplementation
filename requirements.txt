@@ -1,0 +1,12 @@
+﻿numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+h5py==3.16.0
+PyYAML==6.0.3
+joblib==1.5.3
+tqdm==4.68.4
+psutil==7.2.2
+pytest==9.1.1
+rich==15.0.0
