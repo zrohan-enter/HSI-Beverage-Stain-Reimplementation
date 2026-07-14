@@ -1,0 +1,17 @@
+# Reference configuration. The CLI accepts equivalent flags.
+dataset: salinas
+models:
+  - mlp
+selected_bands: 162
+split:
+  test_fraction: 0.20
+  validation_fraction_of_training: 0.10
+training:
+  epochs: 15
+  batch_size: 256
+  learning_rate: 0.001
+  dropout: 0.30
+  early_stopping_patience: 5
+  reduce_lr_patience: 2
+  reduce_lr_factor: 0.5
+seed: 42
