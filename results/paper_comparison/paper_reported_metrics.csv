@@ -1,0 +1,5 @@
+model,accuracy,macro_precision,macro_recall,macro_f1
+MLP,0.9558,0.9554,0.9555,0.9553
+1D-CNN,0.9524,0.9519,0.9518,0.9517
+LSTM,0.9451,0.9497,0.9497,0.9496
+CNN-LSTM,0.9033,0.9049,0.9047,0.9046

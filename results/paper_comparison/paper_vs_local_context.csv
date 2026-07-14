@@ -1,0 +1,5 @@
+model,salinas_accuracy,salinas_macro_precision,salinas_macro_recall,salinas_macro_f1,paper_beverage_accuracy,paper_beverage_macro_precision,paper_beverage_macro_recall,paper_beverage_macro_f1,comparison_warning
+MLP,0.9266580454461482,0.9612713664983504,0.9617963397962972,0.9613854219427087,0.9558,0.9554,0.9555,0.9553,Different datasets and class definitions; not a direct numerical reproduction.
+1D-CNN,0.9188989469794938,0.9552868456731678,0.9539746436522498,0.9543326675784656,0.9524,0.9519,0.9518,0.9517,Different datasets and class definitions; not a direct numerical reproduction.
+LSTM,0.7185479401440975,0.664294919229623,0.6990902843758657,0.6613767932841144,0.9451,0.9497,0.9497,0.9496,Different datasets and class definitions; not a direct numerical reproduction.
+CNN-LSTM,0.8680029558470349,0.9175956698416539,0.9290430611286582,0.9221054815155629,0.9033,0.9049,0.9047,0.9046,Different datasets and class definitions; not a direct numerical reproduction.

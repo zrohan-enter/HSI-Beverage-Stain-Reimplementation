@@ -1,0 +1,35 @@
+{
+  "dataset": "salinas_real_hsi",
+  "dataset_metadata": {
+    "source": "Zenodo 10.5281/zenodo.15771735",
+    "cube_shape": [
+      512,
+      217,
+      204
+    ],
+    "labelled_pixels": 54129,
+    "bands": 204,
+    "classes": 16,
+    "note": "Real public HSI engineering validation; not the original beverage-stain dataset."
+  },
+  "model": "cnn1d",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "cuda_runtime": "12.8",
+  "selected_bands": 162,
+  "original_bands": 204,
+  "classes": 16,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "dropout": 0.3,
+  "seed": 42,
+  "train_samples": 38972,
+  "validation_samples": 4331,
+  "test_samples": 10826,
+  "trainable_parameters": 291472,
+  "training": {
+    "best_epoch": 15,
+    "elapsed_seconds": 19.831051900000602,
+    "epochs_completed": 15
+  }
+}

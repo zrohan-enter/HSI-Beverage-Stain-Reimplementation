@@ -1,0 +1,47 @@
+==============================================================================
+FOUR-MODEL RESULT INTEGRITY VERIFICATION
+==============================================================================
+
+Model:           MLP
+Device:          cuda:0
+GPU:             NVIDIA GeForce RTX 4070
+Test samples:    10,826
+Accuracy:        0.926658
+Macro precision: 0.961271
+Macro recall:    0.961796
+Macro F1:        0.961385
+STATUS: VERIFIED
+
+Model:           1D-CNN
+Device:          cuda:0
+GPU:             NVIDIA GeForce RTX 4070
+Test samples:    10,826
+Accuracy:        0.918899
+Macro precision: 0.955287
+Macro recall:    0.953975
+Macro F1:        0.954333
+STATUS: VERIFIED
+
+Model:           LSTM
+Device:          cuda:0
+GPU:             NVIDIA GeForce RTX 4070
+Test samples:    10,826
+Accuracy:        0.718548
+Macro precision: 0.664295
+Macro recall:    0.699090
+Macro F1:        0.661377
+STATUS: VERIFIED
+
+Model:           CNN-LSTM
+Device:          cuda:0
+GPU:             NVIDIA GeForce RTX 4070
+Test samples:    10,826
+Accuracy:        0.868003
+Macro precision: 0.917596
+Macro recall:    0.929043
+Macro F1:        0.922105
+STATUS: VERIFIED
+
+==============================================================================
+ALL FOUR GPU RESULTS VERIFIED SUCCESSFULLY
+==============================================================================
