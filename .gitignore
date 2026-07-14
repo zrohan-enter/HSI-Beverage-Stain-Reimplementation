@@ -88,3 +88,5 @@ results/**/logits.npy
 
 # Final lightweight results such as CSV, JSON and PNG
 # are intentionally allowed.
+
+results/**/test_labels.npy

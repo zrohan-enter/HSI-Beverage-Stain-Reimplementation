@@ -1,0 +1,17 @@
+,Brocoli_green_weeds_1,Brocoli_green_weeds_2,Fallow,Fallow_rough_plow,Fallow_smooth,Stubble,Celery,Grapes_untrained,Soil_vinyard_develop,Corn_senesced_green_weeds,Lettuce_romaine_4wk,Lettuce_romaine_5wk,Lettuce_romaine_6wk,Lettuce_romaine_7wk,Vinyard_untrained,Vinyard_vertical_trellis
+Brocoli_green_weeds_1,394,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Brocoli_green_weeds_2,0,744,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Fallow,0,0,395,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fallow_rough_plow,0,0,0,278,1,0,0,0,0,0,0,0,0,0,0,0
+Fallow_smooth,0,0,0,0,534,1,0,0,0,1,0,0,0,0,0,0
+Stubble,0,0,0,0,0,792,0,0,0,0,0,0,0,0,0,0
+Celery,0,0,0,0,1,0,715,0,0,0,0,0,0,0,0,0
+Grapes_untrained,0,0,0,1,0,0,0,1934,1,7,3,1,0,0,306,1
+Soil_vinyard_develop,0,0,0,0,0,0,0,1,1238,1,1,0,0,0,0,0
+Corn_senesced_green_weeds,0,0,14,0,0,0,0,2,4,619,8,6,0,0,2,1
+Lettuce_romaine_4wk,0,0,1,0,0,0,0,0,0,3,202,7,0,0,0,0
+Lettuce_romaine_5wk,0,0,0,0,0,0,0,0,0,0,0,385,0,0,0,0
+Lettuce_romaine_6wk,0,0,0,0,0,0,0,0,0,0,0,0,182,1,0,0
+Lettuce_romaine_7wk,0,0,0,0,0,0,0,2,0,2,0,0,5,205,0,0
+Vinyard_untrained,0,0,0,0,0,0,0,397,0,0,0,0,0,0,1057,0
+Vinyard_vertical_trellis,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,358

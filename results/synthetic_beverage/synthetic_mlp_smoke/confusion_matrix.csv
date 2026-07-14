@@ -1,0 +1,10 @@
+,Papaya,Coffee,Pomegranate,Orange,Tea,Wine,Whisky,Rum,Brandy
+Papaya,100,0,0,0,0,0,0,0,0
+Coffee,0,99,0,0,1,0,0,0,0
+Pomegranate,0,0,100,0,0,0,0,0,0
+Orange,0,0,0,100,0,0,0,0,0
+Tea,0,0,0,0,97,3,0,0,0
+Wine,0,0,0,0,0,100,0,0,0
+Whisky,0,0,0,0,0,0,90,7,3
+Rum,0,0,0,0,0,0,4,96,0
+Brandy,0,0,0,0,0,0,4,0,96

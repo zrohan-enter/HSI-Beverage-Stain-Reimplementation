@@ -1,0 +1,35 @@
+{
+  "dataset": "synthetic_beverage",
+  "dataset_metadata": {
+    "samples": 4500,
+    "samples_per_class": 500,
+    "bands": 204,
+    "classes": 9,
+    "wavelength_range_nm": [
+      400.0,
+      1000.0
+    ],
+    "seed": 42,
+    "note": "Synthetic software-validation data only; not the paper's dataset and not valid for forensic accuracy claims."
+  },
+  "model": "mlp",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "cuda_runtime": "12.8",
+  "selected_bands": 162,
+  "original_bands": 204,
+  "classes": 9,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "dropout": 0.3,
+  "seed": 42,
+  "train_samples": 3240,
+  "validation_samples": 360,
+  "test_samples": 900,
+  "trainable_parameters": 248841,
+  "training": {
+    "best_epoch": 5,
+    "elapsed_seconds": 0.904950000000099,
+    "epochs_completed": 5
+  }
+}
